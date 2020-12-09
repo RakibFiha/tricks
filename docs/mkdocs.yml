@@ -1,0 +1,23 @@
+site_name: Rakib Fiha
+site_description: Rakib Fiha
+site_author: rakibfiha
+site_url: https://blogs.rakbfiha.com
+#dev_addr: 0.0.0.0:8000
+
+repo_name: blog
+repo_url: 'https://github.com/rakibfiha/tricks'
+
+docs_dir: 'content'
+edit_uri: 'edit/tricks/docs/content/'
+
+plugins:
+    - search
+    - exclude:
+        glob:
+          - "**/include-*.md"
+
+nav:
+    - Home: index.md
+    - goodread.md
+
+theme: readthedocs
